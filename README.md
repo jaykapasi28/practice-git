@@ -1,4 +1,4 @@
-# practice-git
+# Project-portfolio-website
 
-This is just for practicing git and hosting it for first time
+This is the website where you can manage all your projects.
  
