@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+:root {
+    --blue: #3CB2F7;
+  }
+
+/* header */
+
+
+.navigation{
+    background-color: var(--blue);
+    color: white;
+    border-bottom-left-radius: 1rem;
+}
+.navigation .head{ 
+    padding: 1rem  1.5rem 1rem 0.5rem;
+}
+
+.menu{
+    display: flex;
+    justify-content: flex-end;
+}
+.menu li{
+    list-style: none; 
+    padding: 0rem 1.5rem 1.2rem 1rem;
+}
+.menu li a{
+    text-decoration: none;
+    color:white;
+    font-size: 1.2rem;
+}
+.menu li a:hover{
+    color: black;
+}
+
+/* first section */
+
+
+.first-section img{
+    width: 350px;
+    display: block;
+    margin: auto;
+    padding: 4rem 0rem 2rem 0rem;
+}
+
+.first-section-head{
+    text-align: center;
+    color: rgb(82, 79, 79);
+    font-size: 2rem;
+}
+
+.first-section-span{
+    color: var(--blue);
+}    
+    
+.second-section-head{
+    padding: 5rem 0rem 1rem 0rem;
+    text-align: center;
+}
+
+.second-section-para{
+    max-width: 600px;
+    margin: auto;
+    padding: 0px 15px;
+}
+
+button{
+    max-width: 600px;
+    margin: 30px auto auto 0px;
+    padding: 10px 20px;
+    display: block;
+    background-color:var(--blue);
+    border-radius: 5px;
+    color: white;
+    font-size: 1rem;
+}
+
+button:hover
+{
+    cursor: pointer;
+    background-color: #45a8e0
+}
+
+
+/* footer section */
+
+
+.footer-section{
+    margin-top: 4rem;
+    background-color: var(--blue);
+    border-top-right-radius: 1rem;
+}
+
+.footer-section .footer-head{
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+.footer-section ul{
+    display: flex;
+    justify-content: center;
+}
+
+
+.footer-section ul li {
+    list-style: none; 
+    padding: 30px 20px;
+}
+
+.footer-section ul li a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+.footer-section li a:hover{
+    color:black
+}

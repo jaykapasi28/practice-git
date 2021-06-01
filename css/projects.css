@@ -1,0 +1,51 @@
+:root {
+    --blue: #3CB2F7;
+}
+
+.project-first-section{
+    text-align: center;
+    padding: 6rem 0rem 3rem 0rem;
+}
+
+.project-first-section span{
+    color: var(--blue);
+}
+
+
+
+.project-section-two .project-sections{
+    max-width: 600px;
+    margin: auto;
+    padding: 0px 15px;
+
+}
+
+.project-sections h3 {
+    padding-bottom: 10px;
+    padding-top: 3rem;
+}
+.project-sections p{
+    padding-top: 10px;
+    
+}
+
+.project-sections a{
+    display: block;
+    text-decoration: none;
+    padding: 10px 15px;
+    width: 6rem;
+    margin: 10px 0px;
+    color: white;
+    border-radius: 5px;
+}
+
+.project-sections .first-button{
+    background-color: var(--blue);
+}
+
+.project-sections .second-button{
+    border: 2px solid var(--blue);
+    color: var(--blue);
+    padding: 10px 13px;
+
+}
